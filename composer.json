@@ -1,0 +1,19 @@
+{
+    "name": "pokem/web-service1",
+    "description": "Ejemplo API themovie.rg",
+    "type": "project",
+    "license": "gnu/gpl",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Manuel"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
